@@ -1,0 +1,248 @@
+:root {
+  /* Backgrounds: Light Gray or Teal for freshness. */
+  --BackgroundColor1: #00bfa6;
+  --BackgroundColor2: #f4f4f4;
+  /* Logos and Headers: Electric Blue as the dominant color with Bright Yellow accents. */
+  --HeaderFontColor: #007bff;
+  --HeaderFontColor2: #ffd700;
+  /* Buttons/Call-to-Actions: Deep Purple for visibility. */
+  --BackgroundColor3: #6a0dad;
+}
+
+.button-bgc {
+  background-color: var(--BackgroundColor3) !important;
+}
+.bgc1 {
+  background-color: var(--BackgroundColor1);
+}
+.bgc2 {
+  background-color: var(--BackgroundColor2);
+}
+.HeaderFontColor1 {
+  color: var(--HeaderFontColor) !important;
+}
+.section-number {
+  font-size: 4rem;
+}
+.section-title {
+  font-size: 3rem;
+}
+.first-char {
+  color: var(--BackgroundColor1);
+}
+
+.data-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 100vh;
+}
+
+/* Nav */
+.logoIcon {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+
+.transparent-nav{
+  background-color: transparent !important;
+
+}
+.navbar-nav a {
+  color: #f4f4f4;
+  text-shadow: 0px 0px 3px black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.navbar-nav a:hover {
+  color: #ffd700;
+  text-shadow: 0px 0px 10px #ffd700;
+}
+.navbar.scrolled {
+
+  color: #007bff;
+  background-color: #333232;
+  .navbar-nav a {
+    color: #007bff;
+  }
+  .navbar-nav a:hover {
+    color: #ffd700;
+    text-shadow: 0px 0px 10px #ffd700;
+  }
+}
+/*  */
+#silder,
+.carousel-inner {
+  height: 100vh;
+}
+
+/* ************************************************************************** */
+/* ************************************************************************** */
+/* ************************************************************************** */
+/* ************************************************************************** */
+
+/* ************************************************************************** */
+/* ************************************************************************** */
+/* ************************************************************************** */
+/* Services */
+.icon-span {
+  font-size: 2.5rem;
+  color: var(--BackgroundColor1);
+}
+.service-box {
+  border-radius: 1rem;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: var(--BackgroundColor2);
+}
+.service-box:hover{
+  box-shadow: 0 0 2rem #ffd700;
+  .icon-span{
+    color: #ffd700;
+  }
+}
+/*  */
+/* ******************* */
+.about-us-img{
+  border-radius: 0.5rem;
+}
+/* Team Images */
+.team-img {
+  border-radius: 1rem;
+}
+.team-member {
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+}
+
+.team-des {
+  border-radius: 1rem;
+  background-color: rgba(00, 00, 00, 0.6);
+  position: absolute;
+  color: #ffffff;
+  opacity: 0;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.4s ease-in-out;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.team-des:hover {
+  opacity: 1;
+}
+
+.social-icon {
+  padding: 0;
+  margin: 0;
+}
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+  padding: 6px;
+}
+.social-icon li a {
+    font-size: 2rem;
+    width: 56px;
+    height: 56px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--BackgroundColor2);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
+}
+.social-icon li a:hover {
+  color: var(--BackgroundColor1);
+}
+/* Plan */
+.plan-item{
+  margin: 1rem;
+  padding: 1rem;
+  /* min-height: 100vh; */
+  border-radius: 1.5rem;
+  background-color: #f4f4f4;
+}
+.plan-item:hover{
+  box-shadow: 0 0 2rem #ffd700;
+  .plan-icon{
+    color: #ffd700;
+  }
+}
+.plan-list{
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  list-style: none;
+  display: block;
+  padding: 6px;
+}
+.plan-icon{
+  font-size: 5rem;
+  color: #00bfa6;
+
+}
+.plan-price{
+  display: inline-block;
+  font-size: 4rem;
+}
+.buy-plan{
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: 2px solid #00bfa6;
+  cursor: pointer;
+}
+.buy-plan:hover{
+  transition: 0.7s;
+  color: #ffd700;
+  background-color: #6a0dad;
+  border: 4px solid #ffd700;
+}
+
+/* ****************************** */
+.contact-icon{
+  margin: 1rem;
+  font-size: 3rem;
+  color: #00bfa6;
+}
+.contact-icon:hover{
+  color: #ffd700;
+}
+.contact-data a{
+  text-decoration: none;
+}
+.contact-item:hover{
+  .contact-icon{
+    color: #6a0dad;
+   
+  }
+}
+.add-mrg{
+  margin-top: 1rem;
+}
+/*  */
+.copyRights {
+  font-size: 1.2rem;
+  text-align: center;
+}
