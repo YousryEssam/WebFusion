@@ -256,9 +256,12 @@
 .plan-item{
   margin: 1rem;
   padding: 1rem;
-  /* min-height: 100vh; */
+  display: flex;
+  height: 100%;
   border-radius: 1.5rem;
+  flex-direction: column;
   background-color: #f4f4f4;
+  
 }
 .plan-item:hover{
   box-shadow: 0 0 2rem #ffd700;
@@ -268,7 +271,7 @@
 }
 .plan-list{
   margin: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   list-style: none;
   display: block;
   padding: 6px;
@@ -282,13 +285,18 @@
   display: inline-block;
   font-size: 4rem;
 }
+.plan-item span{
+  font-weight: bold;
+}
 .buy-plan{
   padding: 0.5rem;
   font-size: 2rem;
-  border-radius: 1rem;
-  font-weight: bold;
-  border: 2px solid #00bfa6;
   cursor: pointer;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 2px solid #00bfa6;
+  margin-top: auto;
+  text-align: center; /* Optional: centers the text */
 }
 .buy-plan:hover{
   transition: 0.7s;
@@ -300,16 +308,31 @@
   margin: 1rem;
   font-size: 3rem;
   color: #00bfa6;
+  transition: 0.5s;
 }
 .contact-icon:hover{
+  
+  /* transform: rotate(30deg); */
   color: #ffd700;
+  animation: spin 2s;
+}
+@keyframes spin {
+  0%{
+    transform: rotate(0deg) scale(1);
+  }
+  50%{
+    transform: rotate(360deg) scale(1.5) ;
+  }
+  100%{
+    transform: rotate(0deg) scale(1);
+  }
 }
 .contact-data a{
   text-decoration: none;
 }
 .contact-item:hover{
   .contact-icon{
-    color: #6a0dad;
+    color: #ffd700;
    
   }
 }
