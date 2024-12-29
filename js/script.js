@@ -22,6 +22,7 @@ function side_menu() {
   }
   console.log("Hello");
 }
+document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 document.addEventListener("contextmenu", (event) => {
   event.preventDefault();

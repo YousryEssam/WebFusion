@@ -199,6 +199,7 @@
   box-shadow: 0 0 2rem #ffd700;
   .icon-span{
     color: #ffd700;
+    animation: spin 2s;
   }
 }
 
@@ -265,12 +266,12 @@
     line-height: 60px;
     text-align: center;
     text-decoration: none;
-    color: var(--BackgroundColor2);
+    color: #f4f4f4;
     transition: all 0.4s ease-in-out;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
 }
 .social-icon li a:hover {
-  color: var(--BackgroundColor1);
+  color: #ffd700;
 }
 /* Plan */
 .plan-item{
