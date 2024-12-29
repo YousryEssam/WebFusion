@@ -9,6 +9,20 @@
   --BackgroundColor3: #6a0dad;
 }
 
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #00bfa6;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffd700;
+}
+::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+
 /*Utilities*/
 .border-none {
   border: none !important;
