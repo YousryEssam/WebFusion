@@ -178,6 +178,7 @@ html {
 #silder,
 .carousel-inner {
   max-height: 100vh;
+  margin-bottom: 3rem;
   aspect-ratio: 16 / 9; 
 }
 .slider-btn{
