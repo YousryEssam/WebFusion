@@ -199,6 +199,11 @@ html {
 .indicators-btn:hover{
   background-color: #ffd700 !important;
 }
+@media only screen and (max-width : 600px) {
+  #slid-imges{
+    height: 33vh;
+  }
+}
 
 /* Services */
 .icon-span {
