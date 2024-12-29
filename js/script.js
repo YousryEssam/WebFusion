@@ -22,3 +22,7 @@ function side_menu() {
   }
   console.log("Hello");
 }
+
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
