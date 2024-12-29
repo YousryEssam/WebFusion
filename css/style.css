@@ -177,7 +177,8 @@ html {
 /* ********** */
 #silder,
 .carousel-inner {
-  height: 100vh;
+  max-height: 100vh;
+  aspect-ratio: 16 / 9; 
 }
 .slider-btn{
   display: inline-block;
@@ -199,12 +200,6 @@ html {
 .indicators-btn:hover{
   background-color: #ffd700 !important;
 }
-@media only screen and (max-width : 600px) {
-  #slid-imges{
-    height: 33vh;
-  }
-}
-
 /* Services */
 .icon-span {
   font-size: 2.5rem;
