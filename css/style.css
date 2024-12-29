@@ -23,6 +23,9 @@
   background-color: #f4f4f4;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
 /*Utilities*/
 .border-none {
   border: none !important;
